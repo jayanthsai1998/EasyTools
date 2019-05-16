@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: easy-tools
+Version: 0.0.1
+Summary: easy_tools is a package that helps to perform easy operations on iterables with less time complexity
+Home-page: https://github.com/jayanthsai1998/EasyTools
+Author: Jayanth Sai
+Author-email: jayanthsai1998@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
