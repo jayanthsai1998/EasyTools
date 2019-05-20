@@ -5,7 +5,14 @@
 # else returns False
 
 
-def doublet_sum_occurrence(iterable, doublet_sum):
+def doublet_occurrence(iterable, doublet_sum):
+
+    """
+    A doublet is said to be present if any of the two numbers in the iterable is equal to given doublet_sum
+    :param iterable: Iterable should be either of the types list or tuple of minimum length 2 with numbers
+    :param doublet_sum: Doublet sum should be a number
+    :return: True if doublet is present, else False
+    """
 
     # To check whether the given iterable is list or tuple
     if type(iterable) == list or type(iterable) == tuple:
@@ -18,9 +25,13 @@ def doublet_sum_occurrence(iterable, doublet_sum):
         if not isinstance(item, int):
             raise ValueError("Only numbers are accepted in the iterable")
 
-    # The length of the iterable should be of minimum length 3
+    # To check whether the given doublet_sum is a number
+    if not isinstance(doublet_sum, int):
+        raise ValueError("Doublet sum should be a number")
+
+    # The length of the iterable should be of minimum length 2
     if len(iterable) < 2:
-        raise Exception("Length of the given iterable should be greater than 1")
+        raise Exception("Length of the given iterable should be of minimum length 2 ")
 
     # Iterable of any type is converted to list type to perform sort operation
     iterable = list(iterable)

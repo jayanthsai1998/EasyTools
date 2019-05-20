@@ -6,4 +6,5 @@ easy_tools/triplet_sum_occurrence.py
 easy_tools.egg-info/PKG-INFO
 easy_tools.egg-info/SOURCES.txt
 easy_tools.egg-info/dependency_links.txt
+easy_tools.egg-info/not-zip-safe
 easy_tools.egg-info/top_level.txt
