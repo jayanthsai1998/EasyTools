@@ -1,14 +1,16 @@
-Metadata-Version: 2.1
+Metadata-Version: 1.1
 Name: easy-tools
-Version: 0.0.1
-Summary: easy_tools is a package that helps to perform easy operations on iterables with less time complexity
+Version: 0.9
+Summary: easy_tools is a package that helps to perform operations on iterables or datatypes with less time complexity
 Home-page: https://github.com/jayanthsai1998/EasyTools
 Author: Jayanth Sai
 Author-email: jayanthsai1998@gmail.com
-License: UNKNOWN
-Description: UNKNOWN
+License: MIT
+Description: esay_tools package provides coders to keep many python functions handy.
+        
+        By using these functions which are written at optimized level,
+        python becomes much more speeder( since we know that python works faster with functions ).
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Description-Content-Type: text/markdown
