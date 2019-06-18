@@ -65,22 +65,28 @@ def triplet_occurrence(iterable, triplet_sum):
             # If mid is very next to low, we are incrementing the index of mid
             if mid - low == 1:
                 mid += 1
-                if current_sum - iterable[mid] in occur.keys():
+                if triplet_sum - iterable[mid] in occur.keys():
                     return True
-                occur[current_sum - iterable[mid]] = [iterable[low], iterable[high]]
+                occur[iterable[high] + iterable[mid]] = [iterable[mid], iterable[high]]
+                occur[iterable[low] + iterable[mid]] = [iterable[low], iterable[mid]]
                 current_sum += iterable[mid] - iterable[mid - 1]
 
             # If they are not adjacent we are incrementing the index of low
             else:
                 low += 1
-                if current_sum - iterable[low] in occur.keys():
+                if triplet_sum - iterable[low] in occur.keys():
                     return True
-                occur[current_sum - iterable[low]] = [iterable[mid], iterable[high]]
+                occur[iterable[high] + iterable[low]] = [iterable[low], iterable[high]]
+                occur[iterable[mid] + iterable[low]] = [iterable[low], iterable[mid]]
                 current_sum += iterable[low] - iterable[low - 1]
 
         # If the current sum greater than triplet sum, we are decrementing index of high and modifying current sum
         else:
             high -= 1
+            occur[iterable[high] + iterable[low]] = [iterable[low], iterable[high]]
+            occur[iterable[high] + iterable[mid]] = [iterable[mid], iterable[high]]
+            if triplet_sum - iterable[high] in occur.keys():
+                return True
             current_sum += iterable[high] - iterable[high + 1]
 
     # If the code comes out of while loop, then no triplet sum is present
