@@ -2,6 +2,7 @@ README.md
 setup.py
 easy_tools/__init__.py
 easy_tools/doublet_sum_occurrence.py
+easy_tools/equilibrium_point.py
 easy_tools/triplet_sum_occurrence.py
 easy_tools.egg-info/PKG-INFO
 easy_tools.egg-info/SOURCES.txt
