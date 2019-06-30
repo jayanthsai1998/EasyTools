@@ -1,4 +1,4 @@
-esay_tools package provides coders to keep many python functions handy.
+Python's itertools library is a gem - you can compose elegant solutions for a variety of problems with the functions it provides.
+In easy-tools we collect additional building blocks, recipes, and routines for working with Python iterables.
 
-By using these functions which are written at optimized level,
-python becomes much more speeder( since we know that python works faster with functions ).
+easy-tools package comes with many python functions handy.
