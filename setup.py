@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setup(
     name="easy_tools",
-    version="3.1",
+    version="3.3",
     author="Jayanth Sai",
     long_description=long_description,
     author_email="jayanthsai1998@gmail.com",
-    description="easy_tools is a package that comes with many python functions handy",
+    description="More routines for operating on iterables and data structures, beyond itertools",
     url="https://github.com/jayanthsai1998/EasyTools",
     license='MIT',
     packages=['easy_tools'],

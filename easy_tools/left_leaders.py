@@ -3,9 +3,9 @@
 
 def leaders_to_left(iterable):
     """
-     Leaders-to-left in the iterable is defined if an element in the iterable
+     Leaders-to-left in the iterable is defined as if an element in the iterable
      is greater than all other elements to it's left side
-    :param iterable: iterable is a type of list or tuple containing numbers
+    :param iterable: It should be of either list or tuple types containing numbers
     :return: list of tuples containing leader element and its index
     """
 
