@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="easy_tools",
-    version="3.3",
+    version="3.4",
     author="Jayanth Sai",
     long_description=long_description,
     author_email="jayanthsai1998@gmail.com",
