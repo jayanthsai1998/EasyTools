@@ -1,4 +1,4 @@
-==============
+
 Easy Tools
 ==============
 
@@ -20,23 +20,24 @@ To get started, install the library with `pip <https://pip.pypa.io/en/stable/>`_
 
     pip install easy-tools
 
-The recipes (modules/functions) included in this package are:
-	.triplet_occurrence
-	.doublet_occurrence
-	.equilibrium_point
-	.non_divisible_subset_len
-	.leaders_to_left
-	.leaders_to_right
-	.largest_number
+The recipes (modules/functions) included in this package are:  
+	.triplet_occurrence  
+	.doublet_occurrence  
+	.equilibrium_point  
+	.non_divisible_subset_len  
+	.leaders_to_left  
+	.leaders_to_right  
+	.largest_number_possible  
+	.divisible_pairs
 
 
 For example,
 
 .. code-block:: python
 
-    >>> from easy_tools import largest_number
+    >>> from easy_tools import largest_number_possible
     >>> iterable = [98, 9, 26]
-    >>> largest_number(iterable)
+    >>> largest_number_possible(iterable)
     99826
 
 

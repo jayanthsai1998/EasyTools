@@ -1,11 +1,15 @@
 # Time complexity is O(n)
 
 
-def largest_number(iterable):
+def largest_number_possible(iterable):
     """
      Largest_number is defined as the largest number formed by arranging the elements of the iterable
     :param iterable: It is of type list or tuple accepting only non-negative integers
-    :return: The largest number possible from the given iterable
+    :return: The largest number possibly formed from the given iterable
+
+        Eg: largest_number_possible([98, 9, 26]) returns 99826
+        Here 99826 is the largest element possible after arranging the elements adjacent to each other.
+
     """
 
     # To check whether the given iterable is list or tuple
@@ -38,6 +42,7 @@ def largest_number(iterable):
     # resultant number for storing the larger number from the iterable
     result = ""
 
+    # Appending all the elements based on their index positions
     for item in str_iterable:
         result += str(iterable[item[1]])
 

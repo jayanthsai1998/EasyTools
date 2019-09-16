@@ -12,6 +12,9 @@ def doublet_occurrence(iterable, doublet_sum):
     :param iterable: Iterable should be either of the types list or tuple of minimum length 2 with numbers
     :param doublet_sum: Doublet sum should be a number
     :return: True if doublet is present, else False
+
+        Eg: doublet_occurrence((-3, 9, 8), 5) gives True
+        Here -3 and 8 adds up to give 5 which is the given doublet_sum
     """
 
     # To check whether the given iterable is list or tuple

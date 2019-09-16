@@ -4,7 +4,8 @@ from easy_tools.equilibrium_point import equilibrium_point
 from easy_tools.non_divisible_subset_length import non_divisible_subset_len
 from easy_tools.left_leaders import leaders_to_left
 from easy_tools.right_leaders import leaders_to_right
-from easy_tools.largest_number import largest_number
+from easy_tools.largest_number import largest_number_possible
+from easy_tools.divisible_pairs import divisible_pairs
 
 
 name = 'easy_tools'

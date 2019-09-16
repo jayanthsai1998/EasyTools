@@ -7,6 +7,9 @@ def leaders_to_left(iterable):
      is greater than all other elements to it's left side
     :param iterable: It should be of either list or tuple types containing numbers
     :return: list of tuples containing leader element and its index
+
+        Eg: leaders_to_left([8, 3, 6, 10, 24, 3]) gives [(8, 0), (10, 3), (24, 4)]
+            Here the elements at the indexes 0, 3, 4 are greater than all the elements to its left.
     """
 
     # To check whether the given iterable is list or tuple

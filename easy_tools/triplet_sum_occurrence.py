@@ -12,6 +12,9 @@ def triplet_occurrence(iterable, triplet_sum):
     :param iterable: Iterable should be either of the types list or tuple of minimum length 3 with numbers
     :param triplet_sum: Triplet sum should be a number
     :return: True if triplet is present, else False
+
+        Eg: triplet_occurrence([1, 4, 45, 10, 6, 8], 22) gives True
+            Here 4, 10 and 8 adds up to give 22 which is the given triplet_sum.
     """
 
     # To check whether the given iterable is list or tuple

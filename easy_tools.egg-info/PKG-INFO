@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: easy-tools
-Version: 3.4
+Version: 3.6
 Summary: More routines for operating on iterables and data structures, beyond itertools
 Home-page: https://github.com/jayanthsai1998/EasyTools
 Author: Jayanth Sai
 Author-email: jayanthsai1998@gmail.com
 License: MIT
-Description: ==============
+Description: 
         Easy Tools
         ==============
         
@@ -28,23 +28,24 @@ Description: ==============
         
             pip install easy-tools
         
-        The recipes (modules/functions) included in this package are:
-        	.triplet_occurrence
-        	.doublet_occurrence
-        	.equilibrium_point
-        	.non_divisible_subset_len
-        	.leaders_to_left
-        	.leaders_to_right
-        	.largest_number
+        The recipes (modules/functions) included in this package are:  
+        	.triplet_occurrence  
+        	.doublet_occurrence  
+        	.equilibrium_point  
+        	.non_divisible_subset_len  
+        	.leaders_to_left  
+        	.leaders_to_right  
+        	.largest_number_possible  
+        	.divisible_pairs
         
         
         For example,
         
         .. code-block:: python
         
-            >>> from easy_tools import largest_number
+            >>> from easy_tools import largest_number_possible
             >>> iterable = [98, 9, 26]
-            >>> largest_number(iterable)
+            >>> largest_number_possible(iterable)
             99826
         
         

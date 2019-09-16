@@ -3,9 +3,14 @@
 
 def equilibrium_point(iterable):  # returns index of equilibrium point
     """
-    Equilibrium point is the index in the iterable in which the sum of elements on left hand side and right side of the index are equal.
+    Equilibrium point is the index in the iterable in which the sum of elements on the
+    left hand side and the right side of that index are equal.
     :param iterable: The iterable should be of type list or tuple
-    :return: It returns the index position of the equilibrium point in the iterable, and if no such index is present or list is empty it returns -1
+    :return: It returns the index position of the equilibrium point in the iterable,
+             and if no such index is present or list is empty it returns -1
+
+        Eg: equilibrium_point([-9, 1, 5, 2, -6, 3, 0]) returns 3
+            Here the sum of elements on either side of the index 3 is '-3'.
     """
 
     # To check whether the given iterable is list or tuple

@@ -1,6 +1,7 @@
 README.md
 setup.py
 easy_tools/__init__.py
+easy_tools/divisible_pairs.py
 easy_tools/doublet_sum_occurrence.py
 easy_tools/equilibrium_point.py
 easy_tools/largest_number.py
