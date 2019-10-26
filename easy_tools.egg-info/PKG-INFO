@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: easy-tools
-Version: 3.6
+Version: 3.7
 Summary: More routines for operating on iterables and data structures, beyond itertools
 Home-page: https://github.com/jayanthsai1998/EasyTools
 Author: Jayanth Sai
@@ -28,15 +28,25 @@ Description:
         
             pip install easy-tools
         
-        The recipes (modules/functions) included in this package are:  
-        	.triplet_occurrence  
-        	.doublet_occurrence  
-        	.equilibrium_point  
-        	.non_divisible_subset_len  
-        	.leaders_to_left  
-        	.leaders_to_right  
-        	.largest_number_possible  
-        	.divisible_pairs
+        The recipes (modules/functions) included in this package are: 
+        
+        +---------------------------+
+        | doublet_occurrence        |
+        +---------------------------+
+        | triplet_occurrence        |
+        +---------------------------+
+        | equilibrium_point         |
+        +---------------------------+
+        | non_divisible_subset_len  |
+        +---------------------------+
+        | leaders_to_left           |
+        +---------------------------+
+        | divisible_pairs           |
+        +---------------------------+
+        | leaders_to_right          |
+        +---------------------------+
+        | largest_number_possible   |
+        +---------------------------+
         
         
         For example,
