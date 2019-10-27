@@ -21,24 +21,34 @@ To get started, install the library with `pip <https://pip.pypa.io/en/stable/>`_
     pip install easy-tools
 
 The recipes (modules/functions) included in this package are: 
-
-+---------------------------+
-| doublet_occurrence        |
-+---------------------------+
-| triplet_occurrence        |
-+---------------------------+
-| equilibrium_point         |
-+---------------------------+
-| non_divisible_subset_len  |
-+---------------------------+
-| leaders_to_left           |
-+---------------------------+
-| divisible_pairs           |
-+---------------------------+
-| leaders_to_right          |
-+---------------------------+
-| largest_number_possible   |
-+---------------------------+
+<table >
+    <tr>
+        <td align="center" > <strong> Arrays </strong> </td>
+    </tr>
+    <tr>
+        <td align="center"> doublet_occurrence </td>
+    </tr>
+    <tr>
+        <td align="center">triplet_occurrence </td>
+    </tr>
+    <tr>
+        <td align="center"> equilibrium_point</td>
+    </tr>
+    <tr>   
+        <td align="center"> non_divisible_subset_len </td>
+    </tr>
+    <tr>
+        <td align="center"> leaders_to_left</td></tr>
+    <tr>
+        <td align="center"> divisible_pairs </td></tr>
+    <tr>
+        <td align="center"> leaders_to_right</td>
+    </tr>
+    <tr>
+        <td align="center">largest_number_possible </td>
+    </tr>
+   
+</table>
 
 
 For example,
